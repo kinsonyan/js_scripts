@@ -1,4 +1,4 @@
-#shaolin-kongfu
+//shaolin-kongfu
 const $ = new Env("电视家");
 const notify = $.isNode() ? require('./sendNotify') : '';
 message = ""

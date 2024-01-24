@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 # -- coding: utf-8 --
 # -------------------------------
-# @Author : github@limoruirui https://github.com/limoruirui
-# @Time : 2022/8/22 17:56
-# -------------------------------
 """
 封装一些工具
 """

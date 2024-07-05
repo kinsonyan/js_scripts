@@ -22,8 +22,8 @@ Loon:
 3.关闭获取ck脚本，避免产生不必要的mitm。
 
 [Script]
-cron "8 8 * * *" script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/heytea.js, timeout=300, tag=喜茶Go
-http-request ^https:\/\/vip.heytea.com\/api\/service-member\/vip\/task\/member script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/heytea.js, timeout=10, tag=喜茶Go获取token
+cron "8 8 * * *" script-path=https://raw.githubusercontent.com/kinsonyan/js_scripts/master/Script/heytea.js, timeout=300, tag=喜茶Go
+http-request ^https:\/\/vip.heytea.com\/api\/service-member\/vip\/task\/member script-path=https://raw.githubusercontent.com/kinsonyan/js_scripts/master/Script/heytea.js, timeout=10, tag=喜茶Go获取token
 [MITM]
 hostname =vip.heytea.com
 
